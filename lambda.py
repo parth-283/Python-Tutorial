@@ -9,7 +9,6 @@ print(minus(9,4))'''
     return x-y
 print(minus(9,4))'''
 
-
 # Sort function
 '''def a_first(a):
     return a[1]'''
