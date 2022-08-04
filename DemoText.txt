@@ -1,0 +1,3 @@
+Python documentation strings (or docstrings) provide a convenient
+way of associating documentation with Python modules,
+functions, classes, and methods.
