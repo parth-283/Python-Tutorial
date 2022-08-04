@@ -25,7 +25,7 @@ list1 = ["Apple","Apricots","Avocado","Banana","Blackberries","Blackcurrant","Bl
 #     print(i, end=" ")
 
 # exercise
-no_guess = 9
+'''no_guess = 9
 i = 0
 no = 15
 while (i <= 9):
@@ -41,19 +41,20 @@ while (i <= 9):
     if(i == 9):
         print(" ...Game Over... ")
         break
-
+'''
 
 # exercise
 n = 5
-user = input("enter 0 or 1 number... ")
-print(user,bool(user))
+user = int(input("enter 0 or 1 number... "))
+show = bool(user)
+print(user,show)
 
-if True == bool(user):
+if show == True:
     for i in range(0, n):
         for j in range(0, i + 1):
             print("* ", end="")
         print()
-elif False == bool(user):
+elif show == False:
     for i in range(n + 1, 0, -1):
         for j in range(0, i - 1):
             print("* ", end="")
