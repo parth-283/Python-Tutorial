@@ -29,3 +29,14 @@ func = [square, cube]
 for i in range(5):
     val = list(map(lambda x:x(i),func))
     print(val)'''
+
+
+#Filter Function
+
+list_1 = [1,2,3,4,5,6,7,8,9,5,5,6,5]
+
+def is_greater(num):
+    return num > 5
+
+gr_then_5 = list(filter(is_greater,list_1))
+print(gr_then_5)
