@@ -11,12 +11,12 @@ func2()
 
 
 def dec1(func1):
-    def nowexec1():
+    def func2():
         print("Executing now")
         func1()
         print("Executed")
 
-    return nowexec1
+    return func2
 
 
 @dec1
