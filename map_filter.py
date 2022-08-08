@@ -33,10 +33,24 @@ for i in range(5):
 
 #Filter Function
 
-list_1 = [1,2,3,4,5,6,7,8,9,5,5,6,5]
+'''list_1 = [1,2,3,4,5,6,7,8,9,5,5,6,5]
 
 def is_greater(num):
     return num > 5
 
 gr_then_5 = list(filter(is_greater,list_1))
-print(gr_then_5)
+print(gr_then_5)'''
+
+# Reduce Function
+
+from functools import reduce
+list1 = [1,2,3,5,6,8,9,4,6,4,5]
+'''num = 0
+for i in list1:
+    num = num + i
+
+print(num)'''
+
+
+num = reduce(lambda x,y:x+y, list1)
+print(num)
