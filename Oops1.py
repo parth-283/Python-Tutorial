@@ -13,7 +13,7 @@ emp1.name = "Parth"
 emp1.salary = 10000
 emp1.role = "Instructor"
 emp2.name = "Ravi"
-emp2.salary = 20000
+emp2.salary = 20000 
 emp2.role = "Developer"
 
 print(emp1.no_of_leaves)
