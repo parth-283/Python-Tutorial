@@ -9,7 +9,7 @@ print(parsed)'''
 
 # Task 1 - json.load?
 
-data2 = {
+'''data2 = {
     "Name": "Parth",
     "Course": "MCA",
     "Subject": ['python', 'javascript', 'Html', 'css'],
@@ -19,4 +19,5 @@ data2 = {
 }
 
 jscomp = json.dumps(data2)
-print(jscomp)
+print(jscomp)'''
+
