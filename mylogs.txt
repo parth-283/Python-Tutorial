@@ -22,3 +22,6 @@ Drank Water at 2022-08-16 18:51:26.091101
 Drank Water at 2022-08-17 09:17:02.287639 
 Eyes Relaxed at 2022-08-17 09:17:09.593232 
 Physical Activity Done at 2022-08-17 09:23:40.535099 
+Eyes Relaxed at 2022-08-17 10:01:27.584400 
+Drank Water at 2022-08-17 10:11:18.055802 
+Physical Activity Done at 2022-08-17 10:16:20.497091 
