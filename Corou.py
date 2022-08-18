@@ -1,6 +1,6 @@
 def searcher():
     import time
-    book = ["Ravi","Prayag","Rakesh","Chirag","parth"]
+    book = ["Ravi", "Prayag", "Rakesh", "Chirag", "parth"]
     time.sleep(4)
     while True:
         text = (yield)
