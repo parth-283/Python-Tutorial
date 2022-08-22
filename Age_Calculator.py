@@ -1,7 +1,6 @@
 user_age = int(input("What is your Age/Year of birth.\n"))
 
 year_age = 0
-age = 0
 
 if len(str(user_age)) == 4:
     year_age = user_age
